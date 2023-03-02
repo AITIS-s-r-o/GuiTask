@@ -10,7 +10,7 @@ We have already built about 85% of the backend code and perhaps 15% of the front
 ### Task 1
 The first task is to design the dashboard screen that contains several tools (see below). In this task, we are only interested in overall look, so you **should not** design effects (i.e. changes in visuals in certain events, such as hovering cursor over element, pressing a button etc.).
 
-We would like to see light and dark theme. So you should give us two different versions of the same design - one in light and one in dark theme. 
+We would like to see light and dark theme. So you should give us two different versions of the same design - one in a light theme and one in a dark theme. 
 
 ### Task 2
 If we like your task 1 design we will ask you for more work. Here we will need you to design all the visual effects, this includes change when cursor comes over an element, change when an element is disabled or pressed etc.
@@ -52,7 +52,7 @@ It is expected that the user will use only a few of workspace tabs, for example 
 
 ### Workspace Tab - Windowing System
 
-There is almost no content inside of the workspace tab, as you probably noticed. This is simply not finished and this is what we need to be designed. What we have for now (functionality, not design - that we need) is what we call a "windowing system" that splits the content part of the workspace tab to several zones which are occupied by individual "tools". On the pictures above you can see some of those tools:
+There is almost no content inside of the workspace tab, as you probably noticed. This is simply not finished and this is what we need to be designed. What we have for now (functionality, not design - that we need) is what we call a "windowing system" that splits the content part of the workspace tab to several zones which are occupied by individual "tools". In the pictures above you can see some of those tools:
 
 - Trading Panel (contains chart and order book)
 - Exchange Accounts
@@ -83,13 +83,13 @@ We can see there are some drop zones in the center and we dragged the tool heade
 ![Dashboard with 3 workspace tabs - tool move done](./img/dashboard-3-tabs-tool-move-done.png)
 
 
-Now you can see that the Installed Scripts tool and Running Scripts tool are joined together.
+Now you can see that the Installed Scripts tool and Running Scripts tool are grouped together.
 
 Another thing we can do is closing the tabs. If we close both Open Orders and Orders History, we will see this:
 
 ![Dashboard with 3 workspace tabs - tool closed](./img/dashboard-3-tabs-tool-closed.png)
 
-Finally, we will show splitting the largest panel (with trading panels) to separate one trading panel from the other one. We do this by dragging the tool header to the bottom drop position:
+Finally, we show splitting the largest panel (with two trading panels) to two separate trading panels. We do this by dragging the tool header to the bottom drop position:
 
 
 ![Dashboard with 3 workspace tabs - tool splitting](./img/dashboard-3-tabs-tool-splitting.png)
@@ -97,11 +97,11 @@ Finally, we will show splitting the largest panel (with trading panels) to separ
 
 ![Dashboard with 3 workspace tabs - tool splitting done](./img/dashboard-3-tabs-tool-splitting-done.png)
 
-As you can see on these images, there are various visual effects, but do not worry about them for Task 1. These should only be designed in Task 2. We only present it here so you undersand the functionality.
+As you can see on these images, there are various visual effects, but do not worry about them for Task 1. These should only be designed in Task 2. We only present it here so you understand the functionality.
 
 ### Menu
 
-Currently there is no way to add new tool, or re-add it if you close it. There shuld be a hamburger menu on the right side - i.e. another button on the right side of the workspace tab list button. Through this menu you should be able to add new instance of the tools.
+Currently, there is no way to add a new tool, or re-add it if you close it. There should be a hamburger menu on the right side - i.e. another button on the right side of the workspace tab list button. Through this menu you should be able to add new instances of the tools.
 
 ### Tools
 
@@ -154,7 +154,7 @@ The plus button on the right side of the last workspace tab can be used to add a
 
 ### Workspace Tab List
 
-The down arrow button in the right top corner can be used to list tabs - see the next screen shot:
+The down arrow button in the right top corner can be used to list tabs - see the next screenshot:
 
 ![Dashboard with 3 workspace tabs - tab list](./img/dashboard-3-tabs-list.png)
 
@@ -166,7 +166,7 @@ Similarly, we have this list for tool tabs:
 
 ### What To Do
 
-On images of Task 1 above you could see various visual effects. All those should be redesigned here in Task 2. This includes, but is not limited to
+In images of Task 1 above you could see various visual effects. All those should be redesigned here in Task 2. This includes, but is not limited to
 
 
 * hover, pressed effects for all buttons:
