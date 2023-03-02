@@ -99,6 +99,12 @@ Finally, we show splitting the largest panel (with two trading panels) to two se
 
 As you can see on these images, there are various visual effects, but do not worry about them for Task 1. These should only be designed in Task 2. We only present it here so you understand the functionality.
 
+Resizing of tool tabs and tool tab drag&drop animation in the current dark theme:
+
+![Resizing animation](./img/resize.gif)
+
+![Drag & Drop](./img/dragdrop.gif)
+
 ### Menu
 
 Currently, there is no way to add a new tool, or re-add it if you close it. There should be a hamburger menu on the right side - i.e. another button on the right side of the workspace tab list button. Through this menu you should be able to add new instances of the tools.
