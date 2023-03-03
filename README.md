@@ -27,7 +27,7 @@ The software we are building is a trading assistant that is supposed to help bot
 
 The trader should be able to automate or semi-automate tasks and even program fully automated robots with our software. It should save its users time, improve the reaction time to market events, etc.
 
-From GUI perspective, the software offers light and dark theme. The images below are from the current light theme, but **you are encouraged to show us your vision of both - the light and the dark theme**.
+From GUI perspective, the software offers light and dark themes. The images below are mostly from the current light theme, but we want you to always deliver both themes.
 
 The name of the software is Whale's Secret. We have this logo created for it and we are happy with this logo, we want to keep it.
 
@@ -43,16 +43,18 @@ We also have a splash screen that is displayed when the application is started. 
 
 The dash board is the main screen, which is a screen that the users work with most of the time.
 
+(Note that there is a small rectangular light purple artifact at the top center of the screenshots, that's not part of the design, that's just a developer's toolbox interface - please ignore that).
+
 ![Dashboard with 3 workspace tabs](./img/dashboard-3-tabs.png)
 
 The dashboard consists of workspace tabs, in this case we have three of them, two with default names and one the user renamed as "My Strategy".
 
-It is expected that the user will use only a few of workspace tabs, for example one for each different trading strategy. Workspace tabs can also be detached to their own window, which comes handy when a user has multi-monitor setup.
+It is expected that the user will use only a few of workspace tabs, for example one for each different trading strategy. Workspace tabs can also be detached to their own windows, which comes handy when a user has multi-monitor setup.
 
 
 ### Workspace Tab - Windowing System
 
-There is almost no content inside of the workspace tab, as you probably noticed. This is simply not finished and this is what we need to be designed. What we have for now (functionality, not design - that we need) is what we call a "windowing system" that splits the content part of the workspace tab to several zones which are occupied by individual "tools". In the pictures above you can see some of those tools:
+There is almost no content inside of the workspace tab, as you probably noticed. This is simply not finished and this is what we need to be designed - i.e. **the overall look of all of the below mentioned tools we want to be designed in Task 1**. What we have for now (functionality, not design - that we need) is what we call a "windowing system" that splits the content part of the workspace tab to several zones which are occupied by individual "tools". In the pictures above you can see some of those tools:
 
 - Trading Panel (contains chart and order book)
 - Exchange Accounts
@@ -62,9 +64,6 @@ There is almost no content inside of the workspace tab, as you probably noticed.
 - Running Scripts
 
 As you can see, multiple tools can occupy the same area, in which case they are tabbed. The windowing system allows the user to adjust the layout of each workspace tab. For example we can grab one of the inner borders (we call them resize bars) and change the above to the following:
-
-(Note that there is a small rectangular light purple artifact at the top center of the screenshots, that's not part of the design, that's just a developer's toolbox interface - please ignore that).
-
 
 ![Dashboard with 3 workspace tabs - resizing](./img/dashboard-3-tabs-resizing.png)
 
@@ -183,10 +182,10 @@ In images of Task 1 above you could see various visual effects. All those should
 
 
 * hover, pressed effects for all buttons:
- * workspace + button
- * down arrow workspace tab list button
- * down arrow tab tool list button
- * all close buttons (X)
+  * workspace + button
+  * down arrow workspace tab list button
+  * down arrow tab tool list button
+  * all close buttons (X)
 * workspace tab list itself
 * tool tab list itself
 * right click context menus
