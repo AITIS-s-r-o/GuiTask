@@ -199,7 +199,9 @@ In images of Task 1 above you could see various visual effects. All those should
 
 
 ## Task 3 Details - Connect, Register, Sign In
-The software can be run in the single user mode or the multi-user mode. We expect most users to run it in the single user mode. However, if the user runs it in the multi-user mode, there are some initial screens related to selection of the backend server to connect to and users credentials, which currently look as follows:
+The software can be run in the single user mode or the multi-user mode. We expect most users to run it in the single user mode. However, if the user runs it in the multi-user mode, there are some initial screens related to selection of the backend server to connect to and users credentials, which currently look as you can see below.
+
+In this task we want both - the overall look as well as all visual effects (here we have primary and secondary buttons, they can be hovered, pressed, disabled, ...).
 
 ### Connect GUI to Backend
 
